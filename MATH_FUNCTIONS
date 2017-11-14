@@ -1,0 +1,7 @@
+#ifdef _FUNCTIONS_
+
+MATH_FUNC(ln, log)
+
+MATH_FUNC(sin, sin)
+
+#endif
