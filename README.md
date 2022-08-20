@@ -1,5 +1,8 @@
 # Differentiator
-# Tree is built out of infix expression (inf_diff.cpp)
-# Memory leaks to be wiped
-# parentheses appear when performing math with extents            |(to be fixed)
-# simplification (leaving out) raising any node to the first degree   |(to be fixed)
+
+Builds a tree by reading an infix expression (inf_diff.cpp)
+
+Issues: 
+- Memory leaking like crazy
+- parentheses appear when evaluating derivatives of exponential functions
+- post-derivetive calculations fail to simplify all arithmetics (raising an expression to the power of 1)
