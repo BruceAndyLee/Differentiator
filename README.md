@@ -1,6 +1,6 @@
 # Differentiator
 
-Builds a tree by reading an infix expression (inf_diff.cpp)
+Builds a tree after reading an infix expression (inf_diff.cpp) and takes a derivative of the expression.
 
 Issues: 
 - Memory leaking like crazy
